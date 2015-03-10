@@ -48,7 +48,6 @@ public class YueChe extends HaiJia {
 	private List<String> excludeDayList = new ArrayList<String>();
 
 	public static void main(String[] args) {
-		args = new String[] { "37232119890202132X", "0202" };
 		if (args.length >= 2) {
 			username = args[0];
 			pwd = args[1];

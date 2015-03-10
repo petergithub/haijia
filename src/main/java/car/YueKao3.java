@@ -27,7 +27,6 @@ public class YueKao3 extends HaiJia {
 
 	public static void main(String[] args) {
 		log.info("科目三考试信息读取中");
-		args = new String[] { "152324199005130027", "0513" };
 		if (args.length >= 2) {
 			username = args[0];
 			pwd = args[1];
